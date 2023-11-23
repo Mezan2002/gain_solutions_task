@@ -1,15 +1,25 @@
 import { GoClockFill } from "react-icons/go";
 import { IoIosArrowForward } from "react-icons/io";
+import { IoChevronBackSharp } from "react-icons/io5";
 import { PiMonitorFill } from "react-icons/pi";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/images/Logo.png";
 
 const SideBar = () => {
   return (
     <nav className="bg-white h-[100vh] relative">
+      {/* floating button */}
+      <div className="absolute drop-shadow-xl border h-8 w-8 flex items-center justify-center rounded-full -right-5 top-[4%] bg-white text-secondary hover:text-secondary">
+        <p>
+          <IoChevronBackSharp />
+        </p>
+      </div>
       {/* logo */}
       <div className="px-[30px] bg-primary-bg">
-        <img src={Logo} alt="Logo" />
+        <img
+          src="https://i.ibb.co/PFvZnBQ/image.png"
+          alt="Logo"
+          className="py-6"
+        />
       </div>
       <div className="px-[30px]">
         {/* menu */}
@@ -37,7 +47,7 @@ const SideBar = () => {
               <img
                 src="https://i.ibb.co/7ksYckJ/unsplash-PC6lu-Ww-Aql-Q.png"
                 alt=""
-                className="w-10 h-10 rounded-full"
+                className="2xl:w-12 2xl:h-12 xl:w-11 xl:h-11 rounded-full border-2 border-[#D8E0ED]"
               />
               <div className="ml-3">
                 <h6 className="font-medium text-base text-secondary">Jonus</h6>

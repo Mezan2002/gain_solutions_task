@@ -4,11 +4,11 @@ import SideBar from "../components/SideBar/SideBar";
 const Main = () => {
   return (
     <div>
-      <div className="grid grid-cols-8">
+      <div className="grid 2xl:grid-cols-7 xl:grid-cols-5 gap-[34px]">
         <div className="col-span-1">
           <SideBar />
         </div>
-        <div className="col-span-7">
+        <div className="2xl:col-span-6 xl:col-span-4 mt-7 mr-8">
           <Outlet />
         </div>
       </div>
