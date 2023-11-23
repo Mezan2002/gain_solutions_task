@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
 import EmployeeDashboard from "./components/EmployeeDashboard/EmployeeDashboard";
 import TimeSheet from "./components/TimeSheet/TimeSheet";
 import Main from "./layout/main";
