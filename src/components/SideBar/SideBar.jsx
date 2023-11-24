@@ -2,13 +2,15 @@ import { GoClockFill } from "react-icons/go";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoChevronBackSharp } from "react-icons/io5";
 import { PiMonitorFill } from "react-icons/pi";
-import { Link } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 const SideBar = () => {
+  const location = useLocation();
+
   return (
     <nav className="bg-white h-[100vh] relative">
       {/* floating button */}
-      <div className="absolute drop-shadow-xl border h-8 w-8 flex items-center justify-center rounded-full -right-5 top-[4%] bg-white text-secondary hover:text-secondary">
+      <div className="absolute drop-shadow-xl border p-2 flex items-center justify-center rounded-full -right-5 top-8 bg-white text-secondary hover:text-secondary">
         <p>
           <IoChevronBackSharp />
         </p>
@@ -25,18 +27,29 @@ const SideBar = () => {
         {/* menu */}
         <ul className="">
           <li className="py-2.5 mt-2.5">
-            <Link className="flex items-center text-secondary hover:text-primary">
+            <NavLink
+              to="/"
+              activeClassName="text-primary"
+              className={`${
+                location.pathname === "/" && "text-primary"
+              } flex items-center text-secondary hover:text-primary`}
+            >
               {" "}
               <PiMonitorFill className="w-6 h-6 mr-2.5" />
               Dashboard
-            </Link>
+            </NavLink>
           </li>
           <li className="py-2.5">
-            <Link className="flex items-center text-secondary hover:text-primary">
+            <NavLink
+              to="/timesheet"
+              className={`${
+                location.pathname === "/timesheet" && "text-primary"
+              } flex items-center text-secondary hover:text-primary`}
+            >
               {" "}
               <GoClockFill className="w-6 h-6 mr-2.5" />
               Timesheet
-            </Link>
+            </NavLink>
           </li>
         </ul>
 

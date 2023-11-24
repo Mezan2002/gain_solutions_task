@@ -8,6 +8,7 @@ export default {
         secondary: "#5C5D76",
         "primary-dark": "#1A3AA1",
         "primary-bg": "#F3F4F8",
+        "gray-light": "#8D91A5",
       },
     },
   },
