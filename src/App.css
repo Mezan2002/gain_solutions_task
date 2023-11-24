@@ -5,3 +5,7 @@ body {
   background-color: #f3f4f8;
   font-family: "Poppins", sans-serif;
 }
+
+thead {
+  padding: 20px 30px;
+}

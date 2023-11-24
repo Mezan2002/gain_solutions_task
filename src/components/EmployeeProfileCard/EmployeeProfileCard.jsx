@@ -8,7 +8,7 @@ const EmployeeProfileCard = () => {
       <div className="border border-[#afb2c1] bg-white px-4 flex items-center py-2 rounded-full">
         <input
           type="text"
-          className="bg-transparent focus:outline-none 2xl:w-[90%] w-[95%]"
+          className="bg-transparent focus:outline-none w-[95%]"
           placeholder="Search employee"
         />
         <CiSearch className="text-secondary w-6 h-6" />
