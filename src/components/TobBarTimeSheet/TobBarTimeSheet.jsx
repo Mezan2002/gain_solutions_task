@@ -11,7 +11,7 @@ const TobBarTimeSheet = () => {
     <div>
       <div className="flex items-center justify-between mb-5">
         <h4 className="text-xl font-medium text-secondary">Timesheet</h4>
-        <div className="border border-[#afb2c1] bg-white px-4 flex items-center py-2 rounded-full w-[320px]">
+        <div className="border border-[#afb2c1] bg-white px-4 hidden items-center py-2 rounded-full w-[320px] lg:flex">
           <input
             type="text"
             className="bg-transparent focus:outline-none w-[98%]"
@@ -26,7 +26,7 @@ const TobBarTimeSheet = () => {
             <FaPlus className="mr-2.5 h-[18px] w-[18px]" />
             <p className="text-sm font-medium">New entry</p>
           </button>
-          <div className="dropdown">
+          <div className="dropdown hidden md:block">
             <label
               tabIndex={0}
               className="flex items-center py-2 px-5 text-secondary border border-[#8D91A5] rounded-lg mr-2.5"

@@ -6,9 +6,8 @@ import { NavLink, useLocation } from "react-router-dom";
 
 const SideBar = () => {
   const location = useLocation();
-
   return (
-    <nav className="bg-white h-[100vh] relative">
+    <nav className="bg-white h-[100vh] relative hidden lg:block">
       {/* floating button */}
       <div className="absolute drop-shadow-xl border p-2 flex items-center justify-center rounded-full -right-5 top-8 bg-white text-secondary hover:text-secondary">
         <p>

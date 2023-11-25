@@ -17,46 +17,46 @@ const MonthlyTimelog = () => {
           </h6>
           <p className="text-[#8D91A5] text-sm">This month</p>
         </div>
-        <div className="grid grid-cols-2 2xl:gap-11 md:gap-4 place-items-center">
+        <div className="grid md:grid-cols-2 grid-cols-1 2xl:gap-11 gap-4 place-items-center">
           <div>
             <div className="relative">
-              <div className="2xl:block hidden">
+              <div className="2xl:block block md:hidden">
                 <OrangeRadialBar />
               </div>
-              <div className="xl:block 2xl:hidden miniXL:hidden">
+              <div className="xl:block hidden 2xl:hidden">
                 <OrangeRadialBarXL />
               </div>
-              <div className="miniXL:block xl:hidden">
+              <div className="md:block hidden xl:hidden">
                 <OrangeRadialBarMiniXL />
               </div>
-              <div className="2xl:-mt-20 miniXL:-mt-[70px]  text-center flex flex-col items-center justify-center">
-                <h6 className="2xl:text-4xl text-lg font-semibold text-secondary">
+              <div className="2xl:-mt-20 -mt-20 md:-mt-[70px]  text-center flex flex-col items-center justify-center">
+                <h6 className="2xl:text-4xl text-3xl md:text-lg font-semibold text-secondary">
                   122h
                 </h6>
-                <p className="2xl:text-base md:text-xs font-medium text-[#8D91A5]">
+                <p className="2xl:text-base text-base md:text-xs font-medium text-[#8D91A5]">
                   Scheduled hour
                 </p>
               </div>
             </div>
-            <div className="mt-5 px-0 xl:px-4">
+            <div className="mt-5 xl:px-4 md:px-10 miniXL:px-2 px-4">
               <div className="flex items-center w-full">
-                <div className="md:h-3 md:w-3 mr-1.5 2xl:w-4 2xl:h-4 rounded-full bg-[#FF834D]"></div>
+                <div className="h-3 w-3 mr-1.5 2xl:w-4 2xl:h-4 rounded-full bg-[#FF834D]"></div>
                 <div className="flex items-center justify-between w-full">
-                  <p className="text-gray-light md:text-xs 2xl:text-sm font-medium">
+                  <p className="text-gray-light md:text-xs text-sm 2xl:text-sm font-medium">
                     Loged:
                   </p>
-                  <p className="text-secondary md:text-xs 2xl:text-sm font-medium">
+                  <p className="text-secondary md:text-xs text-sm 2xl:text-sm font-medium">
                     105h 52m
                   </p>
                 </div>
               </div>
               <div className="flex items-center mt-1.5">
-                <div className="md:h-3 md:w-3 mr-1.5 2xl:w-4 2xl:h-4 rounded-full bg-[#FFE7D5] border border-[#FF834D]"></div>
+                <div className="h-3 w-3 mr-1.5 2xl:w-4 2xl:h-4 rounded-full bg-[#FFE7D5] border border-[#FF834D]"></div>
                 <div className="flex items-center justify-between w-full">
-                  <p className="text-gray-light md:text-xs 2xl:text-sm font-medium">
+                  <p className="text-gray-light md:text-xs text-sm 2xl:text-sm font-medium">
                     Balence:
                   </p>
-                  <p className="text-secondary md:text-xs 2xl:text-sm font-medium">
+                  <p className="text-secondary md:text-xs text-sm 2xl:text-sm font-medium">
                     132h
                   </p>
                 </div>
@@ -65,43 +65,44 @@ const MonthlyTimelog = () => {
           </div>
           <div>
             <div className="relative">
-              <div className="2xl:block hidden">
+              <div className="2xl:block block md:hidden">
                 <BlueRadialBar />
               </div>
-              <div className="xl:block 2xl:hidden miniXL:hidden">
+
+              <div className="xl:block hidden 2xl:hidden">
                 <BlueRadialBarXL />
               </div>
-              <div className="miniXL:block xl:hidden">
+              <div className="md:block hidden xl:hidden">
                 <BlueRadialBarMiniXL />
               </div>
-              <div className="2xl:-mt-20 miniXL:-mt-[70px] text-center flex flex-col items-center justify-center">
-                <h6 className="2xl:text-4xl text-lg font-semibold text-secondary">
+              <div className="2xl:-mt-20 -mt-20 md:-mt-[70px] text-center flex flex-col items-center justify-center">
+                <h6 className="2xl:text-4xl text-3xl md:text-lg font-semibold text-secondary">
                   105h
                 </h6>
-                <p className="2xl:text-base md:text-xs font-medium text-[#8D91A5]">
+                <p className="2xl:text-base text-base md:text-xs font-medium text-[#8D91A5]">
                   Loged hour{" "}
                 </p>
               </div>
             </div>
-            <div className="mt-5 xl:px-4">
+            <div className="mt-5 xl:px-4 md:px-10 miniXL:px-2 px-4">
               <div className="flex items-center w-full">
-                <div className="md:h-3 md:w-3 mr-1.5 2xl:w-4 2xl:h-4 rounded-full bg-[#44A9F1]"></div>
+                <div className="h-3 w-3 mr-1.5 2xl:w-4 2xl:h-4 rounded-full bg-[#44A9F1]"></div>
                 <div className="flex items-center justify-between w-full">
-                  <p className="text-gray-light md:text-xs 2xl:text-sm font-medium">
+                  <p className="text-gray-light md:text-xs text-sm 2xl:text-sm font-medium">
                     Approved:
                   </p>
-                  <p className="text-secondary md:text-xs 2xl:text-sm font-medium">
+                  <p className="text-secondary md:text-xs text-sm 2xl:text-sm font-medium">
                     98h 52m
                   </p>
                 </div>
               </div>
               <div className="flex items-center mt-1.5">
-                <div className="md:h-3 md:w-3 mr-1.5 2xl:w-4 2xl:h-4 rounded-full bg-[#DAEEFC] border border-[#44A9F1]"></div>
+                <div className="h-3 w-3 mr-1.5 2xl:w-4 2xl:h-4 rounded-full bg-[#DAEEFC] border border-[#44A9F1]"></div>
                 <div className="flex items-center justify-between w-full">
-                  <p className="text-gray-light md:text-xs 2xl:text-sm font-medium">
+                  <p className="text-gray-light md:text-xs text-sm 2xl:text-sm font-medium">
                     Pending:
                   </p>
-                  <p className="text-secondary md:text-xs 2xl:text-sm font-medium">
+                  <p className="text-secondary md:text-xs text-sm 2xl:text-sm font-medium">
                     30h 11m
                   </p>
                 </div>

@@ -48,7 +48,7 @@ const EmployeeProfileCard = () => {
             <img src={DividerLg} alt="divider" />
           </div>
           {/* show on xl */}
-          <div className="miniXL:flex 2xl:hidden items-end justify-center">
+          <div className="flex 2xl:hidden items-end justify-center">
             <img src={DividerSm} alt="divider" />
             <div className="text-center">
               <h6 className="text-[#21214E] font-medium text-sm xl:block hidden">
@@ -61,7 +61,7 @@ const EmployeeProfileCard = () => {
             </div>
             <img src={DividerSm} alt="divider" />
           </div>
-          <div className="mt-5 grid grid-cols-2 gap-5 text-center">
+          <div className="mt-5 grid grid-cols-2 miniXL:grid-cols-2 md:grid-cols-4 gap-5 text-center">
             <div>
               <h6 className="text-secondary font-medium text-sm">08h</h6>
               <p className="text-[#8D91A5] text-xs">Scheduled</p>
@@ -93,8 +93,8 @@ const EmployeeProfileCard = () => {
             </div>
             <img src={DividerLg} alt="divider" />
           </div>
-          {/* show on xl */}
-          <div className="miniXL:flex 2xl:hidden items-end justify-center mt-8">
+          {/* show on all */}
+          <div className="flex 2xl:hidden items-end justify-center mt-8">
             <img src={DividerSm} alt="divider" />
             <div className="text-center">
               <h6 className="text-[#21214E] font-medium text-sm">
@@ -104,20 +104,42 @@ const EmployeeProfileCard = () => {
             </div>
             <img src={DividerSm} alt="divider" />
           </div>
-          <div className="mt-5 mx-[30px]">
-            <div className="p-4 bg-[#FFF6E9] rounded-xl">
-              <h6 className="text-sm font-medium text-secondary">
-                Unite Living
-              </h6>
-              <p className="text-secondary text-xs">102h 30m loged.</p>
+          {/* miniXL screen */}
+          <div className="miniXL:gap-0 p-5 miniXL:p-0 block md:hidden miniXL:block">
+            <div className="miniXL:mt-5 miniXL:pb-0 pb-5 miniXL:mx-[30px]">
+              <div className="p-4 bg-[#FFF6E9] rounded-xl">
+                <h6 className="text-sm font-medium text-secondary">
+                  Unite Living
+                </h6>
+                <p className="text-secondary text-xs">102h 30m loged.</p>
+              </div>
+            </div>
+            <div className="miniXL:mt-2.5 miniXL:mx-[30px] miniXL:pb-5">
+              <div className="p-4 bg-[#F5EEEB] rounded-xl">
+                <h6 className="text-sm font-medium text-secondary">
+                  Pipex - CRM Solutions
+                </h6>
+                <p className="text-secondary text-xs">80h 30m loged.</p>
+              </div>
             </div>
           </div>
-          <div className="mt-2.5 mx-[30px] pb-5">
-            <div className="p-4 bg-[#F5EEEB] rounded-xl">
-              <h6 className="text-sm font-medium text-secondary">
-                Unite Living
-              </h6>
-              <p className="text-secondary text-xs">102h 30m loged.</p>
+          {/* md screen */}
+          <div className="md:flex gap-5 hidden miniXL:hidden p-5">
+            <div className="miniXL:mt-5 miniXL:mx-[30px] flex-1">
+              <div className="p-4 bg-[#FFF6E9] rounded-xl">
+                <h6 className="text-sm font-medium text-secondary">
+                  Unite Living
+                </h6>
+                <p className="text-secondary text-xs">102h 30m loged.</p>
+              </div>
+            </div>
+            <div className="miniXL:mt-2.5 miniXL:mx-[30px] miniXL:pb-5 flex-1">
+              <div className="p-4 bg-[#F5EEEB] rounded-xl">
+                <h6 className="text-sm font-medium text-secondary">
+                  Pipex - CRM Solutions
+                </h6>
+                <p className="text-secondary text-xs">80h 30m loged.</p>
+              </div>
             </div>
           </div>
         </div>

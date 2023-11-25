@@ -11,7 +11,7 @@ const TopBarEmployeeDashboard = () => {
       {/* topbar of lg screen */}
       <div className="md:flex items-center justify-between miniXL:hidden">
         <h4 className="text-xl font-medium text-secondary">Dashboard</h4>
-        <div className="border border-[#afb2c1] bg-white px-4 flex items-center py-2 rounded-full">
+        <div className="border border-[#afb2c1] bg-white px-4 items-center py-2 rounded-full hidden lg:flex">
           <input
             type="text"
             className="bg-transparent focus:outline-none w-[95%]"
@@ -20,22 +20,22 @@ const TopBarEmployeeDashboard = () => {
           <CiSearch className="text-secondary w-6 h-6" />
         </div>
       </div>
-      <div className="bg-white rounded-[10px] p-[30px] flex items-center justify-between mt-9">
+      <div className="bg-white rounded-[10px] p-[30px] md:flex block items-center justify-between mt-9">
         <div>
-          <h6 className="text-primary-dark font-semibold xl:text-2xl 2xl:text-3xl">
+          <h6 className="text-primary-dark font-semibold text-lg xl:text-2xl 2xl:text-3xl">
             Welcome back Katarina
           </h6>
           <p className="xl:text-sm 2xl:text-base text-[#8D91A5] mr-2.5">
             Let&apos;s start your day <span className="">☕</span>
           </p>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center mt-5 md:mt-0">
           <button className="flex items-center py-2 px-5 bg-primary text-white rounded-lg mr-2.5">
-            <FaPlus className="mr-2.5 h-[18px] w-[18px]" />
+            <FaPlus className="mr-2.5 h-[18px] w-[18px] hidden md:block" />
             <p className="text-sm font-medium">New entry</p>
           </button>
           <button className="flex items-center py-2 px-5 text-secondary border border-[#8D91A5] rounded-lg mr-2.5">
-            <IoPlayOutline className="mr-2.5 h-[18px] w-[18px]" />
+            <IoPlayOutline className="mr-2.5 h-[18px] w-[18px] hidden md:block" />
             <p className="text-sm font-medium">Start timer</p>
           </button>
         </div>
