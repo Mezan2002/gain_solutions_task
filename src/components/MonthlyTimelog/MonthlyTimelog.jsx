@@ -1,7 +1,8 @@
-import BlueProgress2xl from "../../assets/icons/blueProgress2xl.svg";
 import Clock from "../../assets/icons/clockIcon.svg";
 import Exit from "../../assets/icons/exit.svg";
-import OrangeProgress2xl from "../../assets/icons/orangeProgress.svg";
+import BlueRadialBar from "../RadialBar/BlueRadialBar/BlueRadialBar";
+import OrangeRadialBar from "../RadialBar/OrangeRadialBar/OrangeRadialBar";
+// import OrangeProgress2xl from "../../assets/icons/orangeProgress.svg";
 
 const MonthlyTimelog = () => {
   return (
@@ -16,7 +17,7 @@ const MonthlyTimelog = () => {
         <div className="grid grid-cols-2 2xl:gap-11 md:gap-4 place-items-center">
           <div>
             <div className="relative">
-              <img src={OrangeProgress2xl} alt="" />
+              <OrangeRadialBar />
               <div className="2xl:-mt-[75px] md:-mt-12 text-center flex flex-col items-center justify-center">
                 <h6 className="2xl:text-4xl text-lg font-semibold text-secondary">
                   122h
@@ -53,7 +54,7 @@ const MonthlyTimelog = () => {
           </div>
           <div>
             <div className="relative">
-              <img src={BlueProgress2xl} alt="" />
+              <BlueRadialBar />
               <div className="2xl:-mt-[75px] md:-mt-12 text-center flex flex-col items-center justify-center">
                 <h6 className="2xl:text-4xl text-lg font-semibold text-secondary">
                   105h
