@@ -6,6 +6,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-thead {
-  padding: 20px 30px;
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
 }

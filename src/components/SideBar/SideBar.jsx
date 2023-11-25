@@ -29,7 +29,6 @@ const SideBar = () => {
           <li className="py-2.5 mt-2.5">
             <NavLink
               to="/"
-              activeClassName="text-primary"
               className={`${
                 location.pathname === "/" && "text-primary"
               } flex items-center text-secondary hover:text-primary`}

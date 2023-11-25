@@ -5,7 +5,7 @@ const Main = () => {
   return (
     <div>
       <div className="grid 2xl:grid-cols-7 xl:grid-cols-6">
-        <div className="col-span-1">
+        <div className="col-span-1 sticky left-0">
           <SideBar />
         </div>
         <div className="2xl:col-span-6 xl:col-span-5 p-[30px]">

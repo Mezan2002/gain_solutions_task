@@ -1,0 +1,206 @@
+[
+  {
+    "id": 1,
+    "employeeImage": "https://i.ibb.co/wJ61Ljr/unsplash-UVUMHL-Dz-VM.png",
+    "name": "Agens Neilson",
+    "designation": "Laravel department",
+    "day": "Today",
+    "time": "10:15 am - 08:15 pm",
+    "scheduled": "9h",
+    "logged": "8h 12m",
+    "balance": "- 48m",
+    "status": [
+      { "content": "04", "bgColor": "#DAF2DC", "textColor": "#0CAA1B" },
+      { "content": "02", "bgColor": "#FFF1D4", "textColor": "#FFAB00" },
+      { "content": "01", "bgColor": "#FFDADE", "textColor": "#FE475B" }
+    ]
+  },
+  {
+    "id": 2,
+    "employeeImage": "https://i.ibb.co/Qm9Nfmd/unsplash-Oh-KEl-Ok-Q3-RE.png",
+    "name": "Noah",
+    "designation": "Laravel department",
+    "day": "Today",
+    "time": "10:15 am - 08:15 pm",
+    "scheduled": "9h",
+    "logged": "5h 30m",
+    "balance": "- 30m",
+    "additionalBalance": {
+      "content": "03h",
+      "textColor": "#FFAB00",
+      "bgColor": "#FFF1D4"
+    },
+    "status": [
+      { "content": "01", "bgColor": "#DAF2DC", "textColor": "#0CAA1B" }
+    ]
+  },
+  {
+    "id": 3,
+    "employeeImage": "https://i.ibb.co/7CsT0qv/unsplash-SJv-Dxw0azqw.png",
+    "name": "Claudia Tiedemann",
+    "designation": "UI/UX Designer",
+    "day": "Today",
+    "time": "10:15 am - 08:15 pm",
+    "scheduled": "9h",
+    "logged": "8h 12m",
+    "balance": "- 48m",
+    "status": [
+      { "content": "02", "bgColor": "#FFF1D4", "textColor": "#FFAB00" }
+    ]
+  },
+  {
+    "id": 4,
+    "employeeImage": "https://i.ibb.co/wJ61Ljr/unsplash-UVUMHL-Dz-VM.png",
+    "name": "Agens Neilson",
+    "designation": "Laravel department",
+    "day": "Today",
+    "time": "10:15 am - 08:15 pm",
+    "scheduled": "9h",
+    "logged": "8h 12m",
+    "balance": "- 48m",
+    "status": [
+      { "content": "01", "bgColor": "#FFDADE", "textColor": "#FE475B" }
+    ]
+  },
+  {
+    "id": 5,
+    "employeeImage": "https://i.ibb.co/wR7DdxF/image-2023-11-25-181444305.png",
+    "name": "Peter Dopler",
+    "designation": "Laravel department",
+    "day": "Today",
+    "time": "09 am - 06 pm",
+    "scheduled": "9h",
+    "logged": "0m",
+    "balance": "0m",
+    "additionalBalance": {
+      "content": "9h",
+      "textColor": "#FFAB00",
+      "bgColor": "#FFF1D4"
+    }
+  },
+  {
+    "id": 6,
+    "employeeImage": "https://i.ibb.co/Qm9Nfmd/unsplash-Oh-KEl-Ok-Q3-RE.png",
+    "name": "Noah",
+    "designation": "Laravel department",
+    "day": "Today",
+    "time": "10:15 am - 08:15 pm",
+    "scheduled": "9h",
+    "logged": "8h 12m",
+    "balance": "- 48m",
+    "status": [
+      { "content": "02", "bgColor": "#DAF2DC", "textColor": "#0CAA1B" },
+      { "content": "01", "bgColor": "#FFDADE", "textColor": "#FE475B" }
+    ]
+  },
+  {
+    "id": 7,
+    "employeeImage": "https://i.ibb.co/7CsT0qv/unsplash-SJv-Dxw0azqw.png",
+    "name": "Claudia Tiedemann",
+    "designation": "UI/UX Designer",
+    "day": "Today",
+    "time": "10:15 am - 08:15 pm",
+    "scheduled": "9h",
+    "logged": "8h 12m",
+    "balance": "- 48m",
+    "status": [
+      { "content": "04", "bgColor": "#DAF2DC", "textColor": "#0CAA1B" },
+      { "content": "02", "bgColor": "#FFF1D4", "textColor": "#FFAB00" },
+      { "content": "01", "bgColor": "#FFDADE", "textColor": "#FE475B" }
+    ]
+  },
+  {
+    "id": 8,
+    "employeeImage": "https://i.ibb.co/Qm9Nfmd/unsplash-Oh-KEl-Ok-Q3-RE.png",
+    "name": "Noah",
+    "designation": "Laravel department",
+    "day": "Today",
+    "time": "10:15 am - 08:15 pm",
+    "scheduled": "9h",
+    "logged": "5h 30m",
+    "balance": "- 30m",
+    "additionalBalance": {
+      "content": "9h",
+      "textColor": "#FFAB00",
+      "bgColor": "#FFF1D4"
+    },
+    "status": [
+      { "content": "04", "bgColor": "#DAF2DC", "textColor": "#0CAA1B" }
+    ]
+  },
+  {
+    "id": 9,
+    "employeeImage": "https://i.ibb.co/7CsT0qv/unsplash-SJv-Dxw0azqw.png",
+    "name": "Claudia Tiedemann",
+    "designation": "UI/UX Designer",
+    "day": "Today",
+    "time": "10:15 am - 08:15 pm",
+    "scheduled": "9h",
+    "logged": "8h 12m",
+    "balance": "- 48m",
+    "status": [
+      { "content": "02", "bgColor": "#FFF1D4", "textColor": "#FFAB00" }
+    ]
+  },
+  {
+    "id": 10,
+    "employeeImage": "https://i.ibb.co/wJ61Ljr/unsplash-UVUMHL-Dz-VM.png",
+    "name": "Agens Neilson",
+    "designation": "Laravel department",
+    "day": "Today",
+    "time": "10:15 am - 08:15 pm",
+    "scheduled": "9h",
+    "logged": "8h 12m",
+    "balance": "- 48m",
+    "status": [
+      { "content": "01", "bgColor": "#FFDADE", "textColor": "#FE475B" }
+    ]
+  },
+  {
+    "id": 11,
+    "employeeImage": "https://i.ibb.co/wR7DdxF/image-2023-11-25-181444305.png",
+    "name": "Peter Dopler",
+    "designation": "Laravel department",
+    "day": "Today",
+    "time": "09 am - 06 pm",
+    "scheduled": "9h",
+    "logged": "0m",
+    "balance": "0m",
+    "additionalBalance": {
+      "content": "9h",
+      "textColor": "#FFAB00",
+      "bgColor": "#FFF1D4"
+    }
+  },
+  {
+    "id": 12,
+    "employeeImage": "https://i.ibb.co/Qm9Nfmd/unsplash-Oh-KEl-Ok-Q3-RE.png",
+    "name": "Noah",
+    "designation": "Laravel department",
+    "day": "Today",
+    "time": "10:15 am - 08:15 pm",
+    "scheduled": "9h",
+    "logged": "8h 12m",
+    "balance": "- 48m",
+    "status": [
+      { "content": "02", "bgColor": "#DAF2DC", "textColor": "#0CAA1B" },
+      { "content": "01", "bgColor": "#FFDADE", "textColor": "#FE475B" }
+    ]
+  },
+  {
+    "id": 13,
+    "employeeImage": "https://i.ibb.co/7CsT0qv/unsplash-SJv-Dxw0azqw.png",
+    "name": "Claudia Tiedemann",
+    "designation": "UI/UX Designer",
+    "day": "Today",
+    "time": "10:15 am - 08:15 pm",
+    "scheduled": "9h",
+    "logged": "8h 12m",
+    "balance": "- 48m",
+    "status": [
+      { "content": "04", "bgColor": "#DAF2DC", "textColor": "#0CAA1B" },
+      { "content": "02", "bgColor": "#FFF1D4", "textColor": "#FFAB00" },
+      { "content": "01", "bgColor": "#FFDADE", "textColor": "#FE475B" }
+    ]
+  }
+]
