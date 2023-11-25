@@ -5,7 +5,7 @@ import DividerSm from "../../assets/icons/dividerSmall.svg";
 const EmployeeProfileCard = () => {
   return (
     <div className="col-span-1">
-      <div className="border border-[#afb2c1] bg-white px-4 flex items-center py-2 rounded-full">
+      <div className="hidden border border-[#afb2c1] bg-white px-4 miniXL:flex items-center py-2 rounded-full">
         <input
           type="text"
           className="bg-transparent focus:outline-none w-[95%]"
@@ -23,7 +23,7 @@ const EmployeeProfileCard = () => {
           />
         </div>
         {/* employee image */}
-        <div className="2xl:-mt-2 xl:-mt-8 flex flex-col items-center justify-center">
+        <div className="2xl:-mt-2 miniXL:-mt-8 flex flex-col items-center justify-center">
           <img
             src="https://i.ibb.co/896mtyr/unsplash-m-EZ3-Po-FGs-k.png"
             alt="employee-image"
@@ -48,11 +48,14 @@ const EmployeeProfileCard = () => {
             <img src={DividerLg} alt="divider" />
           </div>
           {/* show on xl */}
-          <div className="xl:flex 2xl:hidden items-end justify-center">
+          <div className="miniXL:flex 2xl:hidden items-end justify-center">
             <img src={DividerSm} alt="divider" />
             <div className="text-center">
-              <h6 className="text-[#21214E] font-medium text-sm">
+              <h6 className="text-[#21214E] font-medium text-sm xl:block hidden">
                 Daily Timelog
+              </h6>
+              <h6 className="text-[#21214E] font-medium text-sm block xl:hidden">
+                Timelog
               </h6>
               <p className="text-[#8D91A5] text-xs">Today</p>
             </div>
@@ -91,7 +94,7 @@ const EmployeeProfileCard = () => {
             <img src={DividerLg} alt="divider" />
           </div>
           {/* show on xl */}
-          <div className="xl:flex 2xl:hidden items-end justify-center mt-8">
+          <div className="miniXL:flex 2xl:hidden items-end justify-center mt-8">
             <img src={DividerSm} alt="divider" />
             <div className="text-center">
               <h6 className="text-[#21214E] font-medium text-sm">

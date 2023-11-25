@@ -5,7 +5,7 @@ import Tic from "../../assets/icons/tic.svg";
 
 const LeaveOverview = () => {
   return (
-    <div className="2xl:col-span-2 xl:col-span-5 bg-white p-[30px] rounded-[10px]">
+    <div className="2xl:col-span-2 miniXL:col-span-5 bg-white p-[30px] rounded-[10px]">
       <div className="pb-[30px]">
         <h6 className="md:text-lg 2xl:text-xl font-medium text-[#21214E]">
           Leave overview

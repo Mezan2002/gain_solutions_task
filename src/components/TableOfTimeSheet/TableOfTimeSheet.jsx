@@ -28,7 +28,7 @@ const TableOfTimeSheet = () => {
         {tableData.map((data) => (
           <tbody className="z-10" key={data.id}>
             <tr className="" key={data.id}>
-              <td className="p-5">
+              <td className="xl:p-5 p-3">
                 <div className="flex items-center gap-3">
                   <div className="avatar">
                     <div className="w-10 rounded-full ring ring-[#D8E0ED] ring-offset-base-100">
@@ -39,20 +39,26 @@ const TableOfTimeSheet = () => {
                     <div className="font-medium text-base text-primary-dark">
                       {data.name}
                     </div>
-                    <div className="text-sm text-gray-light">
+                    <div className="text-xs xl:text-sm text-gray-light">
                       {data.designation}
                     </div>
                   </div>
                 </div>
               </td>
-              <td className="p-5 text-sm font-medium text-secondary">
+              <td className="xl:p-5 p-3 text-sm font-medium text-secondary">
                 {data.day}
                 <br />
-                <span className="font-normal text-gray-light">{data.time}</span>
+                <span className="font-normal text-gray-light text-xs xl:text-base">
+                  {data.time}
+                </span>
               </td>
-              <td className="p-5 text-sm text-secondary">{data.scheduled}</td>
-              <td className="p-5 text-sm text-secondary">{data.logged}</td>
-              <td className="p-5 text-sm text-secondary">
+              <td className="xl:p-5 p-3 text-sm text-secondary">
+                {data.scheduled}
+              </td>
+              <td className="xl:p-5 p-3 text-sm text-secondary">
+                {data.logged}
+              </td>
+              <td className="xl:p-5 p-3 text-sm text-secondary">
                 <p className="mr-2">
                   {data.balance}{" "}
                   {data.additionalBalance && (
@@ -64,7 +70,7 @@ const TableOfTimeSheet = () => {
                   )}{" "}
                 </p>
               </td>
-              <td className="p-5 flex gap-x-1.5 mt-2">
+              <td className="xl:p-5 p-3 flex gap-x-1.5 mt-2">
                 {data?.status?.map((singleStatus, i) => (
                   <p
                     key={i}
@@ -74,7 +80,7 @@ const TableOfTimeSheet = () => {
                   </p>
                 ))}
               </td>
-              <th className="p-5">
+              <th className="xl:p-5 p-3">
                 <Drawer />
               </th>
             </tr>

@@ -1,10 +1,25 @@
+import { CiSearch } from "react-icons/ci";
 import { FaPlus } from "react-icons/fa6";
 import { IoPlayOutline } from "react-icons/io5";
 
 const TopBarEmployeeDashboard = () => {
   return (
     <div>
-      <h4 className="text-xl font-medium text-secondary">Dashboard</h4>
+      <h4 className="text-xl font-medium text-secondary miniXL:block hidden">
+        Dashboard
+      </h4>
+      {/* topbar of lg screen */}
+      <div className="md:flex items-center justify-between miniXL:hidden">
+        <h4 className="text-xl font-medium text-secondary">Dashboard</h4>
+        <div className="border border-[#afb2c1] bg-white px-4 flex items-center py-2 rounded-full">
+          <input
+            type="text"
+            className="bg-transparent focus:outline-none w-[95%]"
+            placeholder="Search employee"
+          />
+          <CiSearch className="text-secondary w-6 h-6" />
+        </div>
+      </div>
       <div className="bg-white rounded-[10px] p-[30px] flex items-center justify-between mt-9">
         <div>
           <h6 className="text-primary-dark font-semibold xl:text-2xl 2xl:text-3xl">
