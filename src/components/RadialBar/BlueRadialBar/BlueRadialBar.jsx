@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import ReactApexChart from "react-apexcharts";
 
-const BlueRadialBar = () => {
+const BlueRadialBar = ({ isLarge, isMedium, isSmall, isMini }) => {
   const [chartData] = useState({
-    series: [80],
+    series: [60],
     options: {
       chart: {
         type: "radialBar",
@@ -86,7 +86,9 @@ const BlueRadialBar = () => {
         options={chartData.options}
         series={chartData.series}
         type="radialBar"
-        height={340}
+        height={
+          isLarge ? 350 : isMedium ? 300 : isSmall ? 250 : isMini ? 240 : 210
+        }
       />
     </div>
   );

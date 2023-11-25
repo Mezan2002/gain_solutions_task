@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const MobileNavBar = () => {
   return (
-    <div className="navbar bg-[#FBFAFF] sm:block lg:hidden">
+    <div className="navbar bg-base-100 md:flex lg:hidden">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -55,13 +55,11 @@ const MobileNavBar = () => {
         </div>
       </div>
       <div className="navbar-center">
-        <div className="">
-          <img
-            src="https://i.ibb.co/PFvZnBQ/image.png"
-            alt="Logo"
-            className="w-32"
-          />
-        </div>
+        <img
+          src="https://i.ibb.co/PFvZnBQ/image.png"
+          alt="Logo"
+          className="w-32"
+        />
       </div>
       <div className="navbar-end">
         <button className="btn btn-ghost btn-circle">
@@ -80,13 +78,13 @@ const MobileNavBar = () => {
             />
           </svg>
         </button>
-        <div className="flex items-start">
+        <button className="btn btn-ghost btn-circle">
           <img
             src="https://i.ibb.co/7ksYckJ/unsplash-PC6lu-Ww-Aql-Q.png"
             alt=""
             className="h-10 w-10 rounded-full border-2 border-[#D8E0ED] mr-3"
           />
-        </div>
+        </button>
       </div>
     </div>
   );
