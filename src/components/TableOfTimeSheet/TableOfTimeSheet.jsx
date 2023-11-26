@@ -1,5 +1,6 @@
 import TableData from "../../utils/TableData";
 import Drawer from "../Drawer/Drawer";
+import MobileModal from "../MobileModal/MobileModal";
 import Modal from "../Modal/Modal";
 
 const TableOfTimeSheet = () => {
@@ -168,6 +169,7 @@ const TableOfTimeSheet = () => {
           </table>
         </div>
       </div>
+
       {/* sm block */}
       <div className="overflow-x-auto rounded-lg max-h-[80vh] overflow-auto scrollbar-none block md:hidden">
         <table className="table">
@@ -211,7 +213,7 @@ const TableOfTimeSheet = () => {
                   </span>
                 </td> */}
                 <th className="xl:p-5 p-3">
-                  <Drawer />
+                  <MobileModal />
                 </th>
               </tr>
             </tbody>
