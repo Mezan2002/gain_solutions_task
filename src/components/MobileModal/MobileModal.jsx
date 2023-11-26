@@ -166,7 +166,7 @@ const MobileModal = () => {
                     </div>
                   </div>
                 </div>
-                <div className="w-full absolute bottom-[30px] px-1">
+                <div className="w-full hidden sm:block absolute -bottom-12 px-1">
                   <div className="flex items-center">
                     <button className="flex items-center py-2 px-4 text-secondary border border-[#D8E0ED] rounded-lg mr-2.5">
                       <img src={RejectedIcon} alt="" />
