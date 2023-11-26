@@ -1,5 +1,6 @@
 import TableData from "../../utils/TableData";
 import Drawer from "../Drawer/Drawer";
+import Modal from "../Modal/Modal";
 
 const TableOfTimeSheet = () => {
   const tableData = TableData;
@@ -98,6 +99,7 @@ const TableOfTimeSheet = () => {
           ))}
         </table>
       </div>
+
       {/* md block */}
       <div>
         <div className="overflow-x-auto rounded-lg max-h-[80vh] overflow-auto scrollbar-none hidden md:block miniXL:hidden">
@@ -158,7 +160,7 @@ const TableOfTimeSheet = () => {
                     ))}
                   </td>
                   <th className="xl:p-5 p-3">
-                    <Drawer />
+                    <Modal />
                   </th>
                 </tr>
               </tbody>

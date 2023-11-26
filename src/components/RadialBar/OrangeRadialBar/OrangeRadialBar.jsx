@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import ReactApexChart from "react-apexcharts";
 
+// eslint-disable-next-line react/prop-types
 const OrangeRadialBar = ({ isLarge, isMedium, isSmall, isMini }) => {
   const [chartData] = useState({
     series: [75],
