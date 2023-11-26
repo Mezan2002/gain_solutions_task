@@ -41,7 +41,7 @@ const TableOfTimeSheet = () => {
           {/* row 1 */}
           {tableData.map((data) => (
             <tbody className="z-10" key={data.id}>
-              <tr className={data.id % 2 === 1 && "bg-[#FBFAFF]"} key={data.id}>
+              <tr className={data.id % 2 !== 1 && "bg-[#FBFAFF]"} key={data.id}>
                 <td className="xl:p-5 p-3">
                   <div className="flex items-center gap-3">
                     <div className="avatar">
